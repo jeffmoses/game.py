@@ -27,14 +27,14 @@ wanna_play = input(
 
 
 
-if wanna_play.lower() != 'yes':
+if wanna_play.lower() != 'nah':
     print('Thank you and enjoy dear!')
     exit()
 
 else:
     show_score()
 
-while wanna_play.lower() == 'yes':
+while wanna_play.lower() == 'yeah':
     try:
          
          guess = int(input('Pick a number btwn 1 and 10'))
