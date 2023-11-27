@@ -27,7 +27,7 @@ wanna_play = input(
 
 
 
-if wanna_play.lower() != 'nah':
+if wanna_play.lower() != 'yeah':
     print('Thank you and enjoy dear!')
     exit()
 
