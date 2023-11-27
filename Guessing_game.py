@@ -37,7 +37,7 @@ else:
 while wanna_play.lower() == 'yeah':
     try:
          
-         guess = int(input('Pick a number btwn 1 and 10'))
+         guess = int(input('Pick a number btwn 1 and 10: '))
          if guess < 1 or guess >10:
              raise ValueError(
                  'Kindly guess a no. within the given range'
